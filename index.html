@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header glass">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Davidson Ogaraku</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Back-End Developer with experience using an array of teachnologies such as Python, Django, Flask, Javascript, NodeJS and Express. Do visit my github to view my current tech stack as well projects being worked on.</p>
+
+            <div class="social-media">
+                <a href="https://ng.linkedin.com/in/davidson-ogaraku-a9547aa7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/rotex5" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="docs/Davidson-Ogaraku-Resume.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+        
+        <!-- <div class="home-img">
+            <img src="" alt="">
+        </div> -->
+
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="" alt="">
+        </div> -->
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Backend Developer</h3>
+            <p>Network Engineer Intern turned Software Developer with experience in developing web applications. I think in terms of objectives and results. Always open to learning new tools and technologies that help me provide very efficient and scalable solutions.</p>
+
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Summary <span>Skill Set</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-block' ></i>
+                <h3>Web Development</h3>
+                <p>Building web solutions using technologies such as Python-Django-Flask, NodeJS-Express, MySQL & SQlite</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-cog' ></i>
+                <h3>Dev Ops</h3>
+                <p>Installation, configuration and management of webservers(Nginx), firewalls and loadbalancers(Haproxy) technologies in the most efficient way possible. Implenting efficient and scalable CI/CD pipelines to ease all development, testing and deployment phases.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-data' ></i>
+                <h3>Database Management & Design</h3>
+                <p>Designing and management of efficient database structures/models as the case may be. Ensuring fast querying while using industry standard databases such as MySQL, SQLite and Postgres</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/airbnbclone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Airbnb Clone</h4>
+                    <p>Development was excuted using Python-Flask, MySQL, HTML & CSS </p>
+
+                    <div class="social-media">
+                        <a href="http://web-01.rotexnull.tech/" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/rotex5/AirBnB_clone_v4" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/osbh.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>OSBH</h4>
+                    <p>Development of an Open Source Book Hub using Python-Django, SQlite, Jinja2 templates along side bootstrap.</p>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/rotex5/OSHB" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/underconstruction.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quora Clone</h4>
+                    <p>Will be built using NodeJS/Express.</p>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
